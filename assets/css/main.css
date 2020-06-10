@@ -698,14 +698,15 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 2.5rem;
+			/* display: block; */
+			margin: 2.5rem 0 2.5rem 3.7rem;
+			display: flex;
+			align-self: center;
 			width: 80%;
 		}
 
-			.image.main img {
+			.image img {
 				width: 100%;
-				height: 60%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1562,6 +1563,13 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+			}
+
+			#main article .buttons {
+				display: flex; 
+				justify-content: center; 
+				width: 100%; 
+				margin-bottom: 3%;
 			}
 
 			#main article .close {
